@@ -1,0 +1,9 @@
+.holder{
+    width: 50vw;
+    border-width: 10px;
+    border: 10px;
+    border-color: aqua;
+    display:flex;
+    justify-content: center;
+    
+}
