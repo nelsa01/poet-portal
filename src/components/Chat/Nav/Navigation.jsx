@@ -12,7 +12,7 @@ import write from "../../../resources/write.png";
 
 
 
-export class Navigation extends React.Component{
+export class Nav extends React.Component{
 
     render(){
         return(

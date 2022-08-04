@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#signin_form{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(244, 247, 247); */
+    width: 550px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(69, 177, 228) ;
+    overflow: hidden;
+}
+
+#signin_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-bottom: 7%;
+}
+.signin_input{
+    width: 60%;
+    height: 7%;
+    /* background-color: blue; */
+    margin: 5px;
+}
+.signin_input input{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: none;
+    outline:  none;
+    padding-left: 20px;
+    background-color: aliceblue;
+}
+
+
+.signin_button{
+    width: 60%;
+    height: 7%;
+    border-radius: 50px;
+    border: none;
+    margin: 5px;
+}
+
+#signin_login{
+    background-color: blue;
+    color: white;
+}
+#signin_forgot{
+    align-self: flex-start;
+    margin: 2px  20% ; 
+}
+#signin_forgot a{
+    text-decoration: none;
+    
+}
+/* .horizontal{
+    display: flex;
+} */
+.line1{
+  width: 146px;
+    top: 9px;
+    margin: 9px;
+    
+  
+  
+}
+.line2{
+    position: absolute;
+    width: 146px;
+    height: 0px;
+    left: 0px;
+    top: 9px;
+    border: 1px solid #AEAEAE;
+    transform: rotate(-0.38deg);
+    
+    
+}
+#signin_account{
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#signin_account a{
+    text-decoration: none;
+    color: rgb(76, 29, 247);
+}
+
+#signin_button img{
+    display: inline-block;
+    width: 3px;
+    height: 2px;
+    background-color: aqua;
+}
+.div1{
+  
+    width: 60%;
+}
+
+.signin_google{
+   width: 100%;
+   font-weight: bold;
+   justify-content: center;
+   
+   
+   display: flex;
+   padding: 10px;
+   border-radius: 50px;
+   border-color: rgb(46, 1, 168);
+}
+.google{
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
+.signin_google p{
+    margin-top: 3px;
+}
+.div2{
+    width: 60%;
+    margin: 3px;
+}
+.signin_facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+    border-color: rgb(56, 54, 190);
+    margin: 5px;
+}
+.facebook{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+
