@@ -1,20 +1,24 @@
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
-// import Signup from './components/signup/Signup';
-// import RightSection from './components/Rightsection/Rightsection';
-import { Navigation } from './components/LandingPage/Navigation/Navigation';
-
+import Chat from './components/Chat/Chat';
+import Landingpage from './components/LandingPage/Landingpage';
+import SignUpPage from './components/signup/SignupPage';
 
 
 
 
 function App() {
   return (
-    <div className = "App">
-      {/* <RightSection /> */}
-      <Navigation />
-      {/* <Signup /> */}
+    <BrowserRouter>
+    <Routes>
+      <Route path='/chat' element={<Chat />} />
+      <Route path='/signup' element={<SignUpPage />}/>
+      <Route path='/landingPage' element={<Landingpage/>} />
+      <Route path='/chat' element={<Chat />} />
+    </Routes>
       
-    </div>
+     
+    </BrowserRouter>
   );
 }
 

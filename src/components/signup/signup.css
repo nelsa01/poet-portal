@@ -1,10 +1,11 @@
-/* .signup{
+ .signup{
     background-color: white;
-    width: 50%;
-    height: 100%;
+    width: 50vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .login {
@@ -54,9 +55,11 @@
     margin-top: 10px;
 }
 .divs{
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
 }
 .gmail-btn{
     width: 100%;
@@ -82,7 +85,7 @@
     
 }
 .login > h5{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 hr {
@@ -93,9 +96,17 @@ hr {
     display: flex;
 }
 
+.hr1 {
+    position: absolute;
+    right: 353px;
+    bottom: 314.8px;
+    /* bottom: 15px; */
+}
+
 .hr2 {
     position: absolute;
     right: 230px;
+    bottom: 15px;
     margin-bottom: 300px;
 }
 
@@ -120,4 +131,4 @@ hr {
 }
 
 
- */
+

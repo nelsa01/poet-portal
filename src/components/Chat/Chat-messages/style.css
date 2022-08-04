@@ -1,0 +1,27 @@
+.chat-message{
+    width: 100%;
+    display: flex;
+    
+}
+.chat-message.left{
+    justify-content: left;
+}
+.message-content{
+    padding: 16px;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.chat-message.left .message-content{
+    background-color: #fff;
+    margin: 8px 0;
+    padding: 6px 7px 8px 9px;
+    border-radius: 8px;
+}
+.chat-message.chat-message.right .message-content{
+    background-color: #d9fdd3;
+    margin: 8px 0;
+    padding: 6px 7px 8px 9px;
+    border-radius: 8px;
+}
+.chat-message.right{
+    justify-content: right;
+}
