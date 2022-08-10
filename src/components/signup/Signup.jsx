@@ -12,7 +12,7 @@
                  <h1>Sign Up</h1>
                  <input className="email" type="email" placeholder="Email Address" required="Please enter your email">
                  </input>
-                 <button className="continue-btn">Continue</button>
+                 <button className="continue-btn"><Link to='/joinus'>Continue</Link></button>
                  <p> OR </p>
                  <hr className="hr hr1" />
                  <hr className="hr hr2" />
