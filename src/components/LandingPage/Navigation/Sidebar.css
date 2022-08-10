@@ -1,0 +1,67 @@
+.sidebar-icons{
+
+width: 20%;
+position: absolute;
+left: 0;
+height: 100%;
+/* border-right: 1px solid rgb(216, 213, 213); */
+}
+.logo {
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    margin-left: 25px;
+}
+.sidebar-icons ul{
+    list-style-type: none;
+}
+.sidebar-icons ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(92, 78, 78);
+    padding: 10px 17px ;
+    
+}
+.sidebar-icons ul li a:hover{
+    background: rgb(204, 226, 204);
+    
+}
+.icons{
+    margin: 10px;
+}
+.sidebar_btn{
+    margin-top: 130px;
+}
+
+.sidebar_btn a{
+    text-decoration: none;
+    background: rgb(33, 33, 194);
+    color: white;
+    padding: 9px 20px;
+    margin: 0 35px;
+    border-radius: 50px;
+    outline: none;
+}
+.sidebar-user {
+    /* display: flex; */
+    align-items: center;
+    margin: 0 35px;
+    margin-top: 40px;
+    
+}
+.sidebar-user a{
+    text-decoration: none;
+}
+.login-icon{
+
+    /* margin: 10px; */
+    align-items: center;
+    margin-left: 10px;   
+
+}
+.login-icon a{
+align-items: center;
+margin-right: 30px;
+}

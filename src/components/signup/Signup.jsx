@@ -2,7 +2,7 @@
  import "./signup.css";
  import google from "../../resources/google-icon.png";
  import facebook from "../../resources/facebook-square-blue.svg";
-
+ import {Link } from 'react-router-dom';
  
 
   function Signup (){
@@ -27,7 +27,7 @@
                      Continue with Facebook
                      </button>
                  </div>
-                 <h5>Already have an account?<button className='login2' >Login</button></h5>
+                 <h5>Already have an account?<button className='login2' ><Link to='/signin'>Login</Link></button></h5>
                 
          </form>
        {/* <RightSection /> */}
