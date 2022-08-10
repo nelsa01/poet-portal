@@ -22,9 +22,9 @@ body{
 }
 @media screen and (max-width:900px) {
   
-  .app{
+  /* .app{
     background-color: aqua;
-  }
+  } */
   
   #sidebarr{
     display: none;
