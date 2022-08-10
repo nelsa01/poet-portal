@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Lato', sans-serif;
+
+}
+.App{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+
+#sidebar{
+
+}
+@media screen and (max-width:900px) {
+  
+  .app{
+    background-color: aqua;
+  }
+  
+  #sidebarr{
+    display: none;
+    /* visibility: hidden; */
+    width: 0%;
+  }
+  #rightbar{
+    display: none;
+    /* visibility: hidden; */
+    width: 0%;
+  }
+  #middlebarr{
+    width: 100%;
+    /* width: 100px; */
+    background-color: yellowgreen;
+  }
+}
+
+#sidebarr{
+  /* background-color: blueviolet; */
+  width: 20%;
+}
+#middlebarr{
+  /* background-color: blue; */
+  width: 50%;
+}
+#rightbar{
+  width: 30%;
+  /* background-color: aqua; */
+}

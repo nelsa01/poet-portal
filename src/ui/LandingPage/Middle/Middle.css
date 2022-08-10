@@ -1,0 +1,291 @@
+.middle{
+    width: 100%;
+    /* margin-left: 20%; */
+    /* background: rebeccapurple; */
+    border-right: 1px solid rgb(216, 213, 213);
+    border-left: 1px solid rgb(216, 213, 213);
+}
+/* 
+.home_middle{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    padding: 30px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(85, 74, 74);;
+} */
+/* .slideshow-container{
+    display: flex;
+    position: relative;
+    margin-left: 5px;
+} */
+/* .sub_slideshow1:hover{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 3px;
+    background: red;
+    border: 1px solid rgb(24, 197, 228);
+
+} */
+
+/* .sub_slideshow2:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(24, 197, 228);
+} */
+ /* .prof {
+    display: flex;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 40px;
+    
+}
+.prof h4{
+margin-top: -20px;
+opacity: 0.5;
+} */
+/* .prof h3{
+    position: relative;
+    opacity: 0.7;
+    
+} */
+/* .prof img{
+    
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+    margin-right: 300px;//
+    border-radius: 50px;   
+} */
+/* .micon1{
+margin-top: 40px;
+width: 20px;
+height: 40px;
+opacity: 0.6;
+position: relative;
+right:120px;
+justify-content: space-between;///
+} */
+/* .micon2{
+margin-top: 40px;
+width: 20px;
+height: 40px;
+opacity: 0.6;
+position: relative;
+right: 70px;
+} */
+/* .micions{
+
+ display: flex;
+ align-items: center;
+ right:20px;
+ font-size: 12px;
+} */
+/* .micions span{
+    position: relative;
+    margin-top: 38px;
+    right: 130px;
+    opacity: 0.5;
+    font-size: 13px;
+} */
+/* .micions  p{
+    position: relative;
+    opacity: 0.5;
+    right: 80px;
+    top: 20px;
+} */
+.community h4{
+margin-top: 30%;
+}
+.community img{
+    width: 30px;
+    height: 30px;
+}
+.community h5{
+    position: relative;
+    margin-left: 40px;
+    bottom: 30px;
+}
+.community h6{
+    position: relative;
+    margin-left: 40px;
+    bottom: 30px;
+    opacity: 0.5;
+}
+.community button{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    margin-left: 400px;
+    bottom: 30px;
+    background: rgb(6, 6, 172);
+    border-radius: 50px;
+    border: none;
+}
+.community button a{
+text-decoration: none;
+color: white;
+
+}
+.community  hr{
+    position: relative;
+    margin-right: 150px;
+    margin-left: 10px;
+    top: -25px;
+    border: 1px solid #C6C6C6;
+    transform: rotate(0deg);
+}
+.profcom img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    /* margin-right: 300px; */
+    border-radius: 50px;  
+}
+.profcom h3{
+    position: relative;
+    opacity: 0.7;
+    margin-left: 35px;
+    top: -30px;
+    
+}
+.timer{
+position: relative;
+margin-left: 130px;
+opacity: 0.5;
+top: -50px;
+}
+.profcom p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+.pmicions{
+    position: relative;
+    top: 4px;
+}
+.micon3{
+    margin-top: 2px;
+    width: 20px;
+    height: 40px;
+    opacity: 0.6;
+    position: relative;
+    right:3px;
+}
+.micon4{
+   position: relative;
+   width: 20px;
+   height: 40px;
+   right: -30px;
+   opacity: 0.6;
+      
+}
+.pmicions span{
+    position: relative;
+    top: -16px;
+    right: 20px;
+    opacity: 0.5;
+    font-size: 13px;
+}
+.pmicions p{
+    position: relative;
+    top: -30px;
+    right: -80px;
+    opacity: 0.5;
+    font-size: 13px;
+}
+.comment{
+    position: relative;
+}
+.comment input{
+background: #c0baba;
+width: 70%;
+height: 30px;
+border: 1px solid rgb(207, 205, 205);
+border-radius: 50px;
+}
+
+.publish{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    margin-left: 450px;
+    bottom: 30px;
+    background:whitesmoke;
+    border-radius: 50px;
+    border: 1px solid rgb(91, 70, 185);
+}
+.publish a{
+font-family: 'Roboto';
+text-decoration: none;
+
+}
+
+.poem_form a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(112, 112, 116);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.poem_form a:hover{
+    text-decoration: underline rgb(20, 134, 115);
+
+}
+.poem_form{
+    margin-right: 200px;
+    /* background: red; */
+}
+.paragraphs p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+.fmicions{
+    position: absolute;
+}
+.fmicions button{
+    display: flex;
+    width: 90px;
+    margin-top: -70PX;
+    border-radius: 50px;
+    margin-left: 220px;
+    height: 30px;
+    border:none;
+   
+}
+.fmicions button a{
+     margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none   
+}
+.faicons{
+    display: flex;  
+}
+.faicons1{
+    margin-left: 500px;
+    margin-top: -64px;
+    top:-90px;
+}
+.faicons2{
+    margin-top: -65px;
+    right: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .profcom img{
+        width: 10px;
+    }
+}
