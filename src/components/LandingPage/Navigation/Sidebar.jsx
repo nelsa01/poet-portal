@@ -2,13 +2,14 @@ import React from 'react'
 import {FaHome,FaUserFriends,FaBook
 ,FaRegEnvelope,FaRegBell,FaRegEdit ,FaRegUserCircle} from "react-icons/fa" 
 import './Sidebar.css'
+import logo from '../../../resources/logo.svg'
 
 const Sidebar = () => {
   return (
    
     <div className='sidebar-icons'>
       <div className='logo'>
-        <img src="./image/logo.PNG" alt="" srcset="" />
+        <img src={logo} alt="" srcset="" />
 
       </div>
       <ul>

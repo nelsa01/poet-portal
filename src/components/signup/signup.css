@@ -48,6 +48,11 @@
     
 
 }
+.continue-btn > Link{
+    text-decoration: none;
+    color: white;
+    
+}
 .login > p{
     text-decoration:solid;
     color:grey;

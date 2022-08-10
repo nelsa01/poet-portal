@@ -4,67 +4,20 @@ import {AiOutlineHeart} from 'react-icons/ai'
 import {MdOutlineBookmarkAdd} from 'react-icons/md'
 import {AiOutlineDash} from 'react-icons/ai'
 import "./Middle.css"
+import profilepic from '../../../resources/profilepic.PNG'
+import homeimg from '../../../resources/homeimg.PNG'
 const Middle = () => {
   return (
     <div className='middle'>
-<img src="/image/homeimg.PNG" alt="homeimg" />   
+<img src={homeimg} alt="homeimg" />   
         <br /><br />
         <h5>Popular Poems</h5><br />
-      {/* <div className='slideshow-container'>      
-      <div className='sub_slideshow1'>
-        <h4>Peace Was Never Found but Earned</h4><br />
-        <p>Lorem ipsum ipsum ipsum ipsum ipsum ipsum 
-        ipsum ipsum ipsum ipsum ipsum
-        Lorem ipsum ipsum ipsum
-        ipsum ipsum ipsum ipsum ipsum ipsum
-         ipsum</p>
-      <div className='prof'>
-      <h4>by</h4><br /><br />
-      <img src="./image/profilepic.PNG" alt="profilepic" />
-      <h3>Username</h3>
-      <div  className='micions'>
-      <a href="#">
-
-        <AiOutlineHeart className='micon1' />
-        <FaRegComment className='micon2'/> 
-            
-          </a>
-          <span>200</span>
-          <p>80</p>
-          </div>
-      </div>
-      </div> <br />
-      <div className='sub_slideshow2'>
-      <h4>Peace Was Never Found but Earned</h4><br />
-        <p>Lorem ipsum ipsum ipsum ipsum ipsum ipsum 
-        ipsum ipsum ipsum ipsum ipsum
-        Lorem ipsum ipsum ipsum
-        ipsum ipsum ipsum ipsum ipsum ipsum</p>
-        <div className='prof'>
-
-        <h4>by</h4><br /><br />
-      <img src="./image/profilepic.PNG" alt="profilepic" />
-      <h3>Username</h3>
-      <div  className='micions'>
-      <a href="#">
-
-        <AiOutlineHeart className='micon1' />
-        <FaRegComment className='micon2'/> 
-            
-          </a>
-          <span>200</span>
-          <p>80</p>
-          </div>
-
- </div>
- </div> 
- </div> */}
  <div className='community'>
   <h4>Community</h4><br />
   <p>Discuss everything about Poetry 
     with the community:
   </p><br />
-  <img src="./image/profilepic1.jpg" alt="" />
+  <img src={profilepic} alt="" />
   <h5>Lorem ipsum</h5>
   <h6>10 Members</h6>
 
