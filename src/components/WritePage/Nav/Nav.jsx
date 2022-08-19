@@ -1,11 +1,10 @@
 import React from 'react'
 import {FaHome,FaUserFriends,FaBook
 ,FaRegEnvelope,FaRegBell,FaRegEdit ,FaRegUserCircle} from "react-icons/fa" 
-import './Sidebar.css'
+import './nav.css'
 import logo from '../../../resources/logo.svg'
-import {Link} from 'react-router-dom'
 
-const Sidebar = () => {
+const Nav = () => {
   return (
    
     <div className='sidebar-icons'>
@@ -55,16 +54,11 @@ const Sidebar = () => {
             Write
           </a>
         </li>
-        {/* <div className="sidebar_btn"> */}
-          <button className='btn'><Link to='/signup'>Get Started</Link></button>
-
-        {/* </div> */}
-
         <div className="sidebar-user">
-          <a href="">
+          <p>
             <FaRegUserCircle className='login-icon'/>
             
-            &nbsp;&nbsp;Login</a>
+            &nbsp;&nbsp;Bwenge Bro</p>
         </div>
       </ul>
    
@@ -72,4 +66,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Nav

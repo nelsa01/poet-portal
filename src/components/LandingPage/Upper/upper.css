@@ -1,0 +1,28 @@
+.landingpage{
+    width: 60%;
+    margin-left: 20%;
+    /* background: rebeccapurple; */
+    /* border-right: 1px solid rgb(216, 213, 213);
+    border-left: 1px solid #d8d5d5; */
+    /* background-color: aqua; */
+    
+}
+.picture img{
+    position: relative;
+    width: 90vw;
+}
+.picture p{
+ position: absolute;
+width: 478px;
+height: 117px;
+top: 101px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}

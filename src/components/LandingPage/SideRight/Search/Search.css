@@ -1,0 +1,47 @@
+.SearchContainer {
+    width: 270px;
+    height: 35px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 30px;
+    padding: 0;
+    background-color: rgba(205, 205, 205, 0.666);
+}
+
+.SearchContainer img {
+    width: 20px;
+    height: 20px;
+}
+
+.SearchSubContainerOne {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.SearchSubContainerTwo {
+    width: 100%;
+    height: 100%;
+}
+.SearchSubContainerTwo input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    padding-left: 5px;
+    margin-top: 0px;
+    font-size: 1.1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: bold;
+    background-color: rgb(226 224 224 / 67%);
+}
+.SearchSubContainerTwo input:focus {
+    outline: none;
+}

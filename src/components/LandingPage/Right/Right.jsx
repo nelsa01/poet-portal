@@ -12,7 +12,7 @@ const Right = () => {
     <FaSistrix  className='search'/>
 </div>
     </div>
-    <h2 className='tittle'>Poem Gentre</h2><br />
+    <h2 className='tittle'>Poem Genre</h2><br />
     <div>
         <div className='container'>
    <ul>

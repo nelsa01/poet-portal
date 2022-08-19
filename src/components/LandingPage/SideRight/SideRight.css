@@ -1,0 +1,11 @@
+.sideRightContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding-top: 20px;
+};
+.picture > img{
+    width: 100vw;
+}

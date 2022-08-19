@@ -1,15 +1,16 @@
 import React from 'react'
 import './landingpage.css'
-import Middle from './Middle/Middle'
 import Sidebar from './Navigation/Sidebar'
-import Right from './Right/Right'
+import ContentSlider from './ContentSlider/ContentSlider'
+import SideRight from './SideRight/SideRight'
 
 function Landingpage() {
   return (
     <div className='landingContainer'>
        <Sidebar />
-       <Middle />
-       <Right />
+       {/* <Upper /> */}
+       <ContentSlider />
+       <SideRight />
     </div>
   )
 }

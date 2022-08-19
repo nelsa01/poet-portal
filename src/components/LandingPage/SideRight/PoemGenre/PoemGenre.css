@@ -1,0 +1,82 @@
+.PoemGenreSuperContainer {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.poemGenreContainer {
+    width: 270px;
+    height: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    transition: .3s all linear;
+}
+/* .poemGenreContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.poemGenreContainer::-webkit-scrollbar-track {
+    background: yellow;
+} */
+
+.poemGenreContainer::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.poemGenreContainer::-webkit-scrollbar-thumb:hover {
+    background: rgb(130, 130, 130);
+}
+
+.poemGenreContainerBig {
+    width: 270px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    transition: .3s all linear;
+}
+.poemGenreContainerBig::-webkit-scrollbar {
+    width: 6px;
+}
+
+.poemGenreContainerBig::-webkit-scrollbar-track {
+    background: yellow;
+}
+
+.poemGenreContainerBig::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.poemGenreContainerBig::-webkit-scrollbar-thumb:hover {
+    background: rgb(130, 130, 130);
+}
+.PoemGenreSuperContainer label {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    color: darkblue;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: .8em;
+}
+
+.genreItem {
+    font-size: .8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: rgba(205, 205, 205, 0.666);
+    color: black;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.genreItem:hover {
+    box-shadow: 0 0 1px 1px black;
+}
