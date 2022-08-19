@@ -5,9 +5,7 @@ import Landingpage from './components/LandingPage/Landingpage';
 import { SignInPage } from './components/signinPage/SigninPage';
 import SignUpPage from './components/signup/SignupPage';
 import SplashScreen from './components/Splash-screen/Splashscreen';
-
-
-
+import Write from './components/WritePage/Write';
 
 
 function App() {
@@ -19,6 +17,7 @@ function App() {
       <Route path='/signin' element={<SignInPage />} />
       <Route path='/' element={<SplashScreen />} />
       <Route path='/joinus' element={<JoinUs />} />
+      <Route path='/write' element={<Write />} />
     </Routes>
       
      

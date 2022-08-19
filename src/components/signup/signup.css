@@ -48,9 +48,9 @@
     
 
 }
-.continue-btn > Link{
+.continue-btn a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     
 }
 .login > p{
